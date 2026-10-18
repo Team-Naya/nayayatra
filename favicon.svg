@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#072625" />
+  <text
+    x="14"
+    y="45"
+    fill="#FBFBF9"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="38"
+    font-weight="700"
+    letter-spacing="-1.5"
+  >
+    n
+  </text>
+  <circle cx="46" cy="41" r="5" fill="#D4F268" />
+</svg>
