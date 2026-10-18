@@ -1,0 +1,104 @@
+/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 */
+/* Hallmark · macrostructure: Workbench · H8 hero knobs: frame=minimal-hairline, tilt=0deg, count=stack-of-4
+ * Ft1 footer knobs: wordmark=xl, links=columns
+ * theme: studied-DNA (source: image) · paper oklch(98.4% 0.005 88) · accent oklch(21.5% 0.034 192)
+ * display: soft geometric sans (Plus Jakarta Sans 400) · body: neutral grotesque (Geist 400) · label: mono (Geist Mono)
+ * studied: yes · DNA-source: image (user reference) · contrast: pass (40–41) · slop: pass (42–45) · honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (49) · icons: pass (30) · mobile: pass (34, 49, 50–57)
+ */
+
+:root {
+  /* Studied DNA Palette — Pool Reference (Warm Alabaster + Deep Forest Pine + Sunlit Botanical) */
+  --color-paper:            oklch(98.4% 0.005 88);
+  --color-paper-2:          oklch(95.2% 0.007 85);
+  --color-paper-3:          oklch(92.0% 0.009 85);
+  --color-card:             oklch(99.5% 0.002 88);
+  --color-sage-pill:        oklch(94.2% 0.020 175);
+
+  --color-ink:              oklch(19.5% 0.024 192);
+  --color-ink-2:            oklch(35.0% 0.018 192);
+  --color-muted:            oklch(45.0% 0.014 192);
+  --color-rule:             oklch(87.5% 0.008 85);
+  --color-rule-strong:      oklch(76.0% 0.010 85);
+
+  /* Deep Forest Pine Anchor (Buttons, Dark Feature Block, Footer) */
+  --color-forest:           oklch(21.5% 0.034 192);
+  --color-forest-deep:      oklch(17.5% 0.030 192);
+  --color-forest-surface:   oklch(25.5% 0.034 192);
+  --color-forest-border:    oklch(31.0% 0.032 192);
+  --color-forest-ink:       oklch(97.5% 0.005 88);
+  --color-forest-muted:     oklch(78.0% 0.016 192);
+  --color-forest-watermark: oklch(22.5% 0.030 192);
+
+  /* Botanical & Connector Accents */
+  --color-accent:           oklch(21.5% 0.034 192);
+  --color-accent-ink:       oklch(98.4% 0.005 88);
+  --color-lime:             oklch(86.5% 0.165 110);
+  --color-botanical-1:      oklch(33.0% 0.075 156);
+  --color-botanical-2:      oklch(42.0% 0.095 145);
+  --color-botanical-3:      oklch(84.0% 0.075 185);
+  --color-botanical-sky:    oklch(92.0% 0.038 205);
+  --color-pill-glass:       oklch(24.0% 0.040 185);
+  --color-focus:            oklch(38.0% 0.095 175);
+
+  /* Semantic Status */
+  --color-success:          oklch(42.0% 0.115 155);
+  --color-error:            oklch(46.0% 0.165 25);
+  --color-nav-frost:        oklch(98.4% 0.005 88 / 0.88);
+  --color-shadow-soft:      oklch(19.5% 0.024 192 / 0.07);
+  --color-shadow-elevated:  oklch(19.5% 0.024 192 / 0.14);
+
+  /* Typography — 2+1 Studied DNA */
+  --font-display: "Plus Jakarta Sans", "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-body:    "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-outlier: "Geist Mono", ui-monospace, monospace;
+
+  /* Type Scale */
+  --text-2xs:       0.6875rem;
+  --text-xs:        0.75rem;
+  --text-sm:        0.875rem;
+  --text-base:      1rem;
+  --text-md:        1.125rem;
+  --text-lg:        1.375rem;
+  --text-xl:        1.75rem;
+  --text-2xl:       2.125rem;
+  --text-display-s: clamp(1.75rem, 2.6vw + 0.5rem, 2.375rem);
+  --text-display:   clamp(2.375rem, 4.2vw + 0.75rem, 3.75rem);
+
+  /* 4-pt Spacing Scale */
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-sm:  0.75rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 8rem;
+
+  /* Layout & Radii */
+  --page-max:    74rem;
+  --page-gutter: clamp(1.25rem, 4vw, 3rem);
+  --nav-height:  4.5rem;
+  --rule-hair:   1px;
+  --radius-sm:   0.5rem;
+  --radius-md:   0.875rem;
+  --radius-lg:   1.25rem;
+  --radius-xl:   1.75rem;
+  --radius-pill: 9999px;
+
+  /* Named Z-Index Scale */
+  --z-base:       1;
+  --z-raised:     10;
+  --z-dropdown:   100;
+  --z-sticky:     200;
+  --z-sticky-nav: 300;
+
+  /* Motion */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro:   120ms;
+  --dur-short:   220ms;
+  --dur-long:    380ms;
+}
