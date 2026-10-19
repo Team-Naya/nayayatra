@@ -476,23 +476,23 @@ const CIVIC_ORBIT_NODES = [
 const FAQ_ITEMS = [
   {
     q: 'What does Naya Yatra Private Limited build?',
-    a: 'Headquartered in Kathmandu Metropolitan City-15, Naya Yatra Private Limited is an engineering firm building digital ecosystems, Nepali computational linguistics, and civic hardware. Our portfolio spans naya.com.np, the official Pragya Nepali Brihat Shabdakosh app (100K+ downloads), Naya Paper (paper.naya.com.np), The Naya App, Myna AI for iOS, and technical R&D collaborations with the Nepal Academy and Impacters (WODES).',
+    a: 'Headquartered in Kathmandu, Naya Yatra Private Limited is a full-spectrum software, AI, and hardware engineering company. We partner with enterprises, institutions, and government bodies to build custom web and mobile platforms, applied AI, IoT and fleet telemetry, and stealth-mode robotics — while also developing our own public platforms including naya.com.np, the official Pragya Nepali Brihat Shabdakosh app (100K+ downloads), Naya Paper, The Naya App, and Myna AI.',
+  },
+  {
+    q: 'Can we commission Naya Yatra for custom software, AI, or hardware engineering?',
+    a: 'Yes. While this website highlights our public platforms and open R&D, a core part of our work is engineering bespoke software systems, machine-learning pipelines, embedded IoT/telemetry hardware, and robotics for private clients, institutions, and public-sector initiatives. Every system is architected from the ground up around your operational requirements.',
   },
   {
     q: 'How does the technical partnership with the Nepal Academy work?',
     a: 'In formal technical collaboration with the Nepal Academy (नेपाल प्रज्ञा–प्रतिष्ठान), Naya Yatra engineered the official mobile application for the 1st Edition of the Pragya Nepali Brihat Shabdakosh — bringing 128,000+ authoritative Nepali headwords to over 100,000 users completely offline, with zero advertisements, zero trackers, and a built-in feedback form to report missing words.',
   },
   {
-    q: 'How do Project Biruwa and Project Saathi transform agriculture in Nepal?',
-    a: 'Developed through our collaboration with Impacters (an initiative of the Women Development Society, WODES), Project Biruwa builds low-pressure vertical aeroponics stacks using 3D-printed nozzles, IoT sensors, and AI disease detection — cutting water usage by up to 95% and helping displaced women farmers cultivate high-value crops and endangered Himalayan medicinal plants. Project Saathi pairs a solar-powered field sensor unit with a portable offline edge-ML processing unit and peer-to-peer mesh networking so smallholder farmers get real-time crop and soil diagnostics without internet access.',
+    q: 'How do Project Biruwa, Project Saathi, and Sandbox showcase your hardware & R&D capabilities?',
+    a: 'Developed in collaboration with Impacters (an initiative of the Women Development Society, WODES), these public-interest projects demonstrate our embedded hardware and edge-AI engineering in the field. Project Biruwa combines 3D-printed mist nozzles, IoT sensors, and AI disease detection in vertical aeroponics stacks that cut water use by up to 95%. Project Saathi pairs a solar-powered field sensor unit with a portable offline edge-ML screen and encrypted peer-to-peer mesh networking. Through the Sandbox program, we also mentor emerging STEM researchers building hardware and software prototypes.',
   },
   {
-    q: 'What is the Sandbox STEM Research Grant Program?',
-    a: 'Operated by our partner Impacters (impacters.wodes.org.np), Sandbox awards 6-to-8-month R&D grants to final-year undergraduate (B.Sc., B.E.) and second-year graduate (M.Sc., M.E.) student teams solving practical STEM problems in Nepal. Teams receive funding, hardware components, cloud resources, Impacters Lab access, and industry mentorship — while retaining 100% ownership of their intellectual property ("No strings attached").',
-  },
-  {
-    q: 'How can our institution or business collaborate with Naya Yatra?',
-    a: 'You can reach our engineering team in Kathmandu directly via email at info@naya.com.np, or connect with us on naya.com.np.',
+    q: 'How can our organization collaborate with Naya Yatra?',
+    a: 'Whether you are commissioning custom software, applied AI, embedded hardware, or robotics — or exploring a research partnership — reach our engineering team in Kathmandu directly via email at info@naya.com.np, or connect with us on naya.com.np.',
   },
 ]
 
@@ -600,12 +600,13 @@ export default function App() {
           <div className="pool-container">
             <div className="hero-intro">
               <h1 id="hero-heading" className="display-title">
-                Build digital ecosystems with a purpose, for Nepal and beyond.
+                Software, intelligence, and physical machines — engineered under one roof.
               </h1>
               <p className="hero-sub">
-                Naya Yatra Private Limited is an engineering firm crafting
-                self-expression platforms, official Nepali lexical infrastructure,
-                and open-source civic hardware that drive impact from day one.
+                From high-scale web and mobile platforms to applied AI, IoT
+                telemetry, and stealth robotics, Naya Yatra partners with
+                enterprises, institutions, and governments to solve complex
+                engineering problems.
               </p>
               <a href="#ecosystem" className="pill-btn">
                 EXPLORE OUR WORK
@@ -764,7 +765,7 @@ export default function App() {
               </div>
 
               <small className="showcase-footnote">
-                *Naya Yatra Private Limited (Kathmandu-15, Nepal) engineers commercial digital products alongside official Nepal Academy and WODES Impacters collaborations.
+                *Alongside our public platforms above, Naya Yatra Private Limited (Kathmandu, Nepal) engineers bespoke enterprise software, public-sector telemetry, and stealth robotics systems.
               </small>
             </div>
           </div>
@@ -774,23 +775,23 @@ export default function App() {
         <section id="ecosystem" className="pool-container" aria-labelledby="ecosystem-heading">
           <div className="split-row split-row--dotted">
             <h2 id="ecosystem-heading" className="split-heading">
-              A dedicated studio for sovereign digital &amp; civic systems
+              One engineering partner across software, AI, and physical hardware
             </h2>
             <p className="split-body">
-              We bridge the gap between commercial product development and
-              public-interest engineering — building creator platforms, authoritative
-              Nepali language infrastructure, and women-led agritech hardware across
-              Nepal.
+              Whether commissioning a custom enterprise platform, deploying
+              nationwide IoT and fleet telemetry, training domain-specific AI
+              models, or prototyping autonomous robotics, our team engineers
+              end-to-end systems tailored to the problem.
             </p>
           </div>
 
           {/* ─── 4. Two-Column Editorial Split Row 2 + Animated Visual Strip ─── */}
           <div className="split-row">
-            <h2 className="split-heading">Six flagship initiatives in the ecosystem</h2>
+            <h2 className="split-heading">Selected public platforms &amp; open R&amp;D</h2>
             <p className="split-body">
-              From limitless self-expression on naya.com.np and 100,000+ offline
-              installs of Pragya Nepali Brihat Shabdakosh to Naya Paper, modular
-              mobile applets, Myna AI, and WODES Impacters field engineering.
+              Alongside confidential enterprise, government, and stealth-mode
+              robotics engineering, we build and operate our own public software
+              platforms, language tools, and civic hardware.
             </p>
           </div>
         </section>
@@ -1126,25 +1127,28 @@ export default function App() {
           </div>
         </section>
 
-        {/* ─── 6. Deep Forest-Pine Rounded Block ("Safety first" DNA → Civic Tech & Impacters) ─── */}
+        {/* ─── 6. Deep Forest-Pine Rounded Block ("Safety first" DNA → Hardware, Edge AI & Field Engineering) ─── */}
         <section id="impacters" className="forest-block-wrap" aria-labelledby="impacters-heading">
           <div className="pool-container">
             <div className="forest-block">
               <div className="forest-block__copy">
                 <div>
                   <h2 id="impacters-heading" className="forest-block__title">
-                    Breaking boundaries in civic &amp; agricultural STEM
+                    Hardware, edge AI, and field engineering in action
                   </h2>
                   <p className="forest-block__desc">
-                    In close technical collaboration with Impacters — a STEM
-                    innovation initiative by the Women Development Society (WODES) —
-                    Naya Yatra co-engineers solar-powered edge AI, 3D-printed vertical
-                    aeroponics, and supports open-IP research prototypes across Nepal.
+                    Beyond our confidential embedded systems, fleet telemetry, and
+                    stealth robotics R&amp;D, we actively apply our hardware and
+                    edge-AI capabilities to public-interest challenges. In technical
+                    collaboration with Impacters — a STEM initiative by the Women
+                    Development Society (WODES) — we co-engineer solar-powered edge
+                    AI, 3D-printed vertical aeroponics, and support open-IP research
+                    prototypes across Nepal.
                   </p>
                 </div>
 
                 <p className="forest-block__footnote">
-                  Explore our joint research collaborations with Impacters (WODES) —
+                  Public hardware &amp; R&amp;D case studies with Impacters (WODES) —
                   including Project Biruwa (Aeroponics &amp; Endemic Plant
                   Conservation), Project Saathi (Solar + P2P Offline Farm AI), and the
                   Sandbox STEM Research Grant Program.*
@@ -1331,8 +1335,9 @@ export default function App() {
               civic purpose.
             </h2>
             <p className="closing-sub">
-              Headquartered in Kathmandu Metropolitan City-15, Nepal. Partner with us
-              on software platforms, Nepali language infrastructure, or STEM research.
+              Headquartered in Kathmandu, Nepal. Partner with us on custom software
+              platforms, applied AI, embedded IoT &amp; telemetry, or hardware and
+              robotics R&amp;D.
             </p>
             <div className="closing-actions">
               <a href="mailto:info@naya.com.np" className="pill-btn">
@@ -1515,13 +1520,14 @@ export default function App() {
               ©2026 NAYA YATRA PRIVATE LIMITED · KATHMANDU METROPOLITAN CITY-15, NEPAL · INFO@NAYA.COM.NP
             </p>
             <p>
-              * Naya Yatra Private Limited (नयाँ यात्रा प्रा. लि.) engineers commercial
-              and civic digital infrastructure in Nepal. Pragya Nepali Brihat
-              Shabdakosh is published in official technical collaboration with the
-              Nepal Academy (नेपाल प्रज्ञा–प्रतिष्ठान). Project Biruwa, Project Saathi,
-              and the Sandbox STEM Research Grant Program are collaborative civic-tech
-              initiatives with Impacters, an initiative of the Women Development
-              Society (WODES).
+              * Naya Yatra Private Limited (नयाँ यात्रा प्रा. लि.) is a software,
+              applied AI, and hardware/robotics engineering firm in Nepal, building
+              bespoke enterprise and public-sector systems alongside its own public
+              platforms. Pragya Nepali Brihat Shabdakosh is published in official
+              technical collaboration with the Nepal Academy (नेपाल
+              प्रज्ञा–प्रतिष्ठान). Project Biruwa, Project Saathi, and the Sandbox
+              STEM Research Grant Program are collaborative civic-tech initiatives
+              with Impacters, an initiative of the Women Development Society (WODES).
             </p>
           </div>
         </div>
