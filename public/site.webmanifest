@@ -2,13 +2,13 @@
   "name": "Naya Yatra Private Limited",
   "short_name": "naya.",
   "description": "Naya Yatra Private Limited is an engineering firm in Kathmandu, Nepal building digital ecosystems, Nepali computational linguistics, and civic hardware.",
-  "start_url": "/nayayatra/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#FBFBF9",
   "theme_color": "#072625",
   "icons": [
     {
-      "src": "/nayayatra/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
