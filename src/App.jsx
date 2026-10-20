@@ -5,19 +5,19 @@ const HERO_TABS = [
   {
     id: 'platform',
     tabLabel: 'NAYA.COM.NP',
-    workspaceTitle: 'naya.com.np — Limitless Self-Expression & Publishing',
+    workspaceTitle: 'naya.com.np: Limitless Self-Expression & Publishing',
     chipLabel: 'Web Platform · Live',
     emblemText: 'ने',
     metric: 'naya.com.np',
     metricSub:
-      'Create an authentic online space, publish with rich multi-format tools, or team up with collaborators to curate dynamic Collections.',
+      'Create an authentic online space, publish with multi-format tools, or team up with collaborators to curate dynamic Collections.',
     primaryAction: 'Launch naya.com.np ↗',
     primaryHref: 'https://naya.com.np/',
     secondaryAction: 'Explore Ecosystem ↓',
     secondaryHref: '#ecosystem',
     feed: [
       {
-        label: 'Collaborative Collections — Powers paper.naya.com.np & impacters.wodes.org.np',
+        label: 'Collaborative Collections power paper.naya.com.np & impacters.wodes.org.np',
         right: 'Collections',
       },
       {
@@ -29,12 +29,12 @@ const HERO_TABS = [
   {
     id: 'shabdakosh',
     tabLabel: 'SHABDAKOSH',
-    workspaceTitle: 'प्रज्ञा नेपाली बृहत् शब्दकोश — Official Nepal Academy Dictionary',
+    workspaceTitle: 'प्रज्ञा नेपाली बृहत् शब्दकोश: Official Nepal Academy Dictionary',
     chipLabel: 'Google Play · 100,000+ Downloads',
     emblemText: 'प्र',
     metric: '128,000+ Words',
     metricSub:
-      'Engineered by Naya Yatra in technical partnership with the Nepal Academy (नेपाल प्रज्ञा–प्रतिष्ठान). 100% offline with zero ads or trackers.',
+      'Built by Naya Yatra in technical partnership with the Nepal Academy (नेपाल प्रज्ञा प्रतिष्ठान). Runs 100% offline with zero ads or trackers.',
     primaryAction: 'View on Google Play ↗',
     primaryHref:
       'https://play.google.com/store/apps/details?id=np.com.naya.sabdakosh&hl=en',
@@ -54,7 +54,7 @@ const HERO_TABS = [
   {
     id: 'editorial',
     tabLabel: 'PAPER & MYNA AI',
-    workspaceTitle: 'Naya Paper & Myna AI — Writing & Conversational Fluency',
+    workspaceTitle: 'Naya Paper & Myna AI: Writing & Conversational Fluency',
     chipLabel: 'Web Editor & iOS App Store (5.0 ★)',
     emblemText: 'अ',
     metric: 'Language & AI Tools',
@@ -66,36 +66,36 @@ const HERO_TABS = [
     secondaryHref: '#engineering',
     feed: [
       {
-        label: 'Naya Paper — Distraction-free Nepali spell checker & Preeti-to-Unicode converter',
+        label: 'Naya Paper: Distraction-free Nepali spell checker & Preeti-to-Unicode converter',
         right: 'paper.naya.com.np',
       },
       {
-        label: 'Myna AI (iOS) — Real-life speaking scenarios using your own OpenAI or Gemini key',
+        label: 'Myna AI (iOS): Real-life speaking scenarios using your own OpenAI or Gemini key',
         right: '0 Data Collected',
       },
     ],
   },
   {
     id: 'impacters',
-    tabLabel: 'CIVIC R&D',
-    workspaceTitle: 'Civic Agritech & STEM R&D — In Collaboration with Impacters (WODES)',
-    chipLabel: 'Partner Initiative · Impacters (WODES)',
-    emblemText: 'W',
-    metric: '−95% Water Aeroponics',
+    tabLabel: 'HARDWARE & R&D',
+    workspaceTitle: 'Hardware, IoT Telemetry & Field R&D',
+    chipLabel: 'Embedded Systems · Edge AI · Robotics',
+    emblemText: 'R&D',
+    metric: 'Edge AI & Hardware',
     metricSub:
-      'Partnering with Impacters (a WODES initiative) to engineer Project Biruwa vertical aeroponics, Project Saathi offline farm AI, and Sandbox STEM research grants.',
-    primaryAction: 'Visit impacters.wodes.org.np ↗',
-    primaryHref: 'https://impacters.wodes.org.np',
-    secondaryAction: 'View Field Programs ↓',
-    secondaryHref: '#impacters',
+      'We engineer custom embedded hardware, fleet telemetry, and stealth robotics, alongside public agritech R&D with Impacters (WODES).',
+    primaryAction: 'View Field Programs ↓',
+    primaryHref: '#impacters',
+    secondaryAction: 'Commission R&D ↓',
+    secondaryHref: '#contact',
     feed: [
       {
-        label: 'Project Biruwa — 3D-printed vertical aeroponics & Himalayan plant conservation',
-        right: '−95% Water',
+        label: 'Project Biruwa: 3D-printed vertical aeroponics & Himalayan plant conservation',
+        right: '95% Less Water',
       },
       {
-        label: 'Project Saathi & Sandbox — Solar offline edge-ML farm device & 6–8 mo. STEM grants',
-        right: '100% Creator IP',
+        label: 'Project Saathi & Sandbox: Solar offline edge-ML farm device & STEM research grants',
+        right: 'Open R&D',
       },
     ],
   },
@@ -122,7 +122,7 @@ const SHOWCASE_CARDS = [
     meta: '128,000+ Offline Words',
     badge: '100K+ Installs',
     summary:
-      'The official mobile dictionary of the Nepal Academy (नेपाल प्रज्ञा–प्रतिष्ठान), engineered by Naya Yatra with 128,000+ offline entries, zero ads, and zero trackers.',
+      'The official mobile dictionary of the Nepal Academy (नेपाल प्रज्ञा प्रतिष्ठान), built by Naya Yatra with 128,000+ offline entries, zero ads, and zero trackers.',
     ctaLabel: 'Google Play Store ↗',
     ctaHref:
       'https://play.google.com/store/apps/details?id=np.com.naya.sabdakosh&hl=en',
@@ -293,7 +293,7 @@ const ENGINEERING_DECK = [
     num: '01',
     title: 'Pragya Nepali Brihat Shabdakosh',
     badge: '100K+ DOWNLOADS',
-    desc: 'Created by the Nepal Academy (नेपाल प्रज्ञा–प्रतिष्ठान) with the technical support of Naya Yatra Pvt. Ltd. Digitizes 128,000+ authoritative words from the 1st Edition into a book-like, 100% offline mobile reference with zero ads or trackers.',
+    desc: 'Created by the Nepal Academy (नेपाल प्रज्ञा प्रतिष्ठान) with the technical support of Naya Yatra Pvt. Ltd. Digitizes 128,000+ authoritative words from the 1st Edition into a book-like, 100% offline mobile reference with zero ads or trackers.',
     partnerLabel: 'OFFICIAL NEPAL ACADEMY DICTIONARY',
     specs: ['128,000+ Words (1st Ed.)', '100% Offline', 'Missing-Word Feedback'],
     linkLabel: 'Open on Google Play ↗',
@@ -302,19 +302,19 @@ const ENGINEERING_DECK = [
     samples: [
       {
         pill: 'प्रज्ञा',
-        headword: 'प्रज्ञा [ना.] (सं.) — prajñā',
+        headword: 'प्रज्ञा [ना.] (सं.) · prajñā',
         sub: 'प्रज्ञा नेपाली बृहत् शब्दकोश · प्रथम संस्करण',
         body: '१. तीक्ष्ण बुद्धि; विवेक; समझदारी। २. विशेष ज्ञान वा प्रतिभा; सिर्जनात्मक चेतना।',
       },
       {
         pill: 'यात्रा',
-        headword: 'यात्रा [ना.] (सं.) — yātrā',
+        headword: 'यात्रा [ना.] (सं.) · yātrā',
         sub: 'प्रज्ञा नेपाली बृहत् शब्दकोश · प्रथम संस्करण',
         body: '१. एक ठाउँबाट अर्को ठाउँमा जाने काम; सफर; भ्रमण। २. कुनै उद्देश्यले गरिने प्रस्थान वा अभियान।',
       },
       {
         pill: 'अन्वेषण',
-        headword: 'अन्वेषण [ना.] (सं.) — anveṣaṇa',
+        headword: 'अन्वेषण [ना.] (सं.) · anveṣaṇa',
         sub: 'प्रज्ञा नेपाली बृहत् शब्दकोश · प्रथम संस्करण',
         body: '१. कुनै तथ्य वा सत्य पत्ता लगाउन गरिने वैज्ञानिक खोज; अनुसन्धान; शोधखोज।',
       },
@@ -325,7 +325,7 @@ const ENGINEERING_DECK = [
     num: '02',
     title: 'Naya Paper',
     badge: 'PAPER.NAYA.COM.NP',
-    desc: 'A distraction-free editorial workspace engineered for Nepali writers — combining a minimalist interface with a Nepali Brihat Shabdakosh-powered spell checker and a deterministic Preeti-to-Unicode converter.',
+    desc: 'A distraction-free editorial workspace engineered for Nepali writers. It combines a minimalist interface with a Nepali Brihat Shabdakosh-powered spell checker and a deterministic Preeti-to-Unicode converter.',
     partnerLabel: 'SHABDAKOSH-BACKED NEPALI WRITING SUITE',
     specs: ['Brihat Shabdakosh Spell Check', 'Preeti → Unicode Engine', 'Minimalist Editor'],
     linkLabel: 'Launch paper.naya.com.np ↗',
@@ -334,9 +334,9 @@ const ENGINEERING_DECK = [
       {
         pill: 'Preeti → Unicode',
         fromLabel: 'LEGACY PREETI FONT INPUT',
-        fromText: 'gofof qf k|f= ln= — sf7df8f}+',
+        fromText: 'gofof qf k|f= ln= , sf7df8f}+',
         toLabel: 'CANONICAL NEPALI UNICODE',
-        toText: 'नयाँ यात्रा प्रा. लि. — काठमाडौँ',
+        toText: 'नयाँ यात्रा प्रा. लि., काठमाडौँ',
       },
       {
         pill: 'Shabdakosh Spell Check',
@@ -360,19 +360,19 @@ const ENGINEERING_DECK = [
     samples: [
       {
         pill: 'Daily Café & Dining',
-        headword: 'Scenario 01 — Ordering Food & Natural Small Talk',
+        headword: 'Scenario 01: Ordering Food & Natural Small Talk',
         sub: 'Interactive Conversational Practice · Safe Mistake-Free Feedback',
         body: 'Practice ordering meals, asking about ingredients, and handling spontaneous follow-up questions to build natural speaking rhythm and situational confidence.',
       },
       {
         pill: 'Transit & Directions',
-        headword: 'Scenario 02 — Navigating Public Transportation',
+        headword: 'Scenario 02: Navigating Public Transportation',
         sub: 'Situational Vocabulary & Cultural Fluency',
         body: 'Simulate buying tickets, asking locals for platform transfers, and navigating unfamiliar cities while tracking new vocabulary milestones automatically.',
       },
       {
         pill: 'Business Meetings',
-        headword: 'Scenario 03 — Professional Introductions & Discussions',
+        headword: 'Scenario 03: Professional Introductions & Discussions',
         sub: 'Powered Directly by Your Own OpenAI or Gemini API Key',
         body: 'Rehearse workplace discussions, project updates, and professional small talk without monthly subscription lock-in or third-party data collection.',
       },
@@ -392,25 +392,25 @@ const ENGINEERING_DECK = [
     samples: [
       {
         pill: '01 Conversation',
-        headword: 'Conversation Applet — Community & Business Threads',
+        headword: 'Conversation Applet: Community & Business Threads',
         sub: 'Connected directly to the naya.com.np ecosystem',
         body: 'Start clean text conversation threads with creators, collaborators, and businesses across the naya.com.np network in a distraction-free messaging view.',
       },
       {
         pill: '02 Offline Notes',
-        headword: 'Notes Applet — Folder-Organized Offline Writing',
+        headword: 'Notes Applet: Folder-Organized Offline Writing',
         sub: 'Local-first persistence for quick thoughts and drafts',
         body: 'Jot down ideas and organize manuscripts into structured folders completely offline in a crisp, distraction-free writing environment.',
       },
       {
         pill: '03 AI News',
-        headword: 'News Applet — AI Clustering, Ranking & Categorization',
+        headword: 'News Applet: AI Clustering, Ranking & Categorization',
         sub: 'Evolved from the Naya News application',
         body: 'Applies machine-learning models to automatically cluster related stories, rank breaking coverage, and categorize articles across topics.',
       },
       {
         pill: '04 Scanner',
-        headword: 'Scanner Applet — Lightweight Capture with Magic Color',
+        headword: 'Scanner Applet: Lightweight Capture with Magic Color',
         sub: 'Fast document extraction without ads or bloat',
         body: 'Captures physical documents, receipts, and notes through a streamlined camera pipeline with Magic Color enhancement for crisp legibility.',
       },
@@ -441,7 +441,7 @@ const CIVIC_ORBIT_NODES = [
     spokeY: 95,
     pipeline: ['3D-Printed Nozzles', 'Root Mist Chamber', 'IoT + AI Conservation'],
     hudDesc:
-      'Low-pressure vertical aeroponics engineered by WODES & Naya Yatra — cutting water usage by up to 95%, reclaiming urban space for displaced women farmers, and conserving endemic Himalayan plants.',
+      'Low-pressure vertical aeroponics built by WODES and Naya Yatra. It cuts water usage by up to 95%, reclaims urban space for displaced women farmers, and conserves endemic Himalayan plants.',
     linkLabel: 'Read Biruwa Report ↗',
     href: 'https://wodes.org.np/post/p1771516471yiocf',
   },
@@ -449,12 +449,12 @@ const CIVIC_ORBIT_NODES = [
     id: 'sandbox',
     badge: '03',
     title: 'Sandbox Grants',
-    sub: '6–8 Mo. STEM R&D Grants · 100% Creator IP',
+    sub: '6 to 8 Mo. STEM R&D Grants · 100% Creator IP',
     spokeX: 115,
     spokeY: 245,
     pipeline: ['Student R&D Teams', 'Hardware & Cloud Lab', '100% Creator IP'],
     hudDesc:
-      '6-to-8-month STEM research grants for final-year undergraduate (B.Sc./B.E.) and graduate (M.Sc./M.E.) teams in Nepal — supplying funding, hardware, mentorship, and zero IP strings attached.',
+      'Six-to-eight-month STEM research grants for final-year undergraduate (B.Sc./B.E.) and graduate (M.Sc./M.E.) teams in Nepal, providing funding, hardware, mentorship, and full creator IP ownership.',
     linkLabel: 'View Grant Program ↗',
     href: 'https://impacters.wodes.org.np/post/p1657043789nib5k',
   },
@@ -476,7 +476,7 @@ const CIVIC_ORBIT_NODES = [
 const FAQ_ITEMS = [
   {
     q: 'What does Naya Yatra Private Limited build?',
-    a: 'Headquartered in Kathmandu, Naya Yatra Private Limited is a full-spectrum software, AI, and hardware engineering company. We partner with enterprises, institutions, and government bodies to build custom web and mobile platforms, applied AI, IoT and fleet telemetry, and stealth-mode robotics — while also developing our own public platforms including naya.com.np, the official Pragya Nepali Brihat Shabdakosh app (100K+ downloads), Naya Paper, The Naya App, and Myna AI.',
+    a: 'Headquartered in Kathmandu, Naya Yatra Private Limited is a full-spectrum software, AI, and hardware engineering company. We partner with enterprises, institutions, and government bodies to build custom web and mobile platforms, applied AI, IoT and fleet telemetry, and stealth-mode robotics. Alongside client work, we develop our own public platforms including naya.com.np, the official Pragya Nepali Brihat Shabdakosh app (100K+ downloads), Naya Paper, The Naya App, and Myna AI.',
   },
   {
     q: 'Can we commission Naya Yatra for custom software, AI, or hardware engineering?',
@@ -484,7 +484,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'How does the technical partnership with the Nepal Academy work?',
-    a: 'In formal technical collaboration with the Nepal Academy (नेपाल प्रज्ञा–प्रतिष्ठान), Naya Yatra engineered the official mobile application for the 1st Edition of the Pragya Nepali Brihat Shabdakosh — bringing 128,000+ authoritative Nepali headwords to over 100,000 users completely offline, with zero advertisements, zero trackers, and a built-in feedback form to report missing words.',
+    a: 'In formal technical collaboration with the Nepal Academy (नेपाल प्रज्ञा प्रतिष्ठान), Naya Yatra engineered the official mobile application for the 1st Edition of the Pragya Nepali Brihat Shabdakosh. The app brings 128,000+ authoritative Nepali headwords to over 100,000 users completely offline, with zero advertisements, zero trackers, and a built-in feedback form to report missing words.',
   },
   {
     q: 'How do Project Biruwa, Project Saathi, and Sandbox showcase your hardware & R&D capabilities?',
@@ -492,7 +492,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'How can our organization collaborate with Naya Yatra?',
-    a: 'Whether you are commissioning custom software, applied AI, embedded hardware, or robotics — or exploring a research partnership — reach our engineering team in Kathmandu directly via email at info@naya.com.np, or connect with us on naya.com.np.',
+    a: 'Whether you are commissioning custom software, applied AI, embedded hardware, or robotics, or exploring a research partnership, reach our engineering team in Kathmandu directly via email at info@naya.com.np or connect with us on naya.com.np.',
   },
 ]
 
@@ -580,7 +580,7 @@ export default function App() {
                 ENGINEERING
               </a>
               <a href="#impacters" className="pool-nav__link micro-caps">
-                IMPACTERS
+                HARDWARE &amp; R&amp;D
               </a>
               <a href="#faq" className="pool-nav__link micro-caps">
                 FAQ
@@ -600,7 +600,7 @@ export default function App() {
           <div className="pool-container">
             <div className="hero-intro">
               <h1 id="hero-heading" className="display-title">
-                Software, intelligence, and physical machines — engineered under one roof.
+                Software, intelligence, and physical machines, engineered under one roof.
               </h1>
               <p className="hero-sub">
                 From high-scale web and mobile platforms to applied AI, IoT
@@ -695,11 +695,11 @@ export default function App() {
                     </div>
 
                     <a
-                      href="#impacters"
+                      href="#contact"
                       className="app-stage__action-pill"
                       style={{ justifyContent: 'space-between' }}
                     >
-                      <span>WODES × Impacters</span>
+                      <span>Commission a Project</span>
                       <span aria-hidden="true">→</span>
                     </a>
                   </aside>
@@ -735,8 +735,16 @@ export default function App() {
                       <div className="app-stage__pills">
                         <a
                           href={currentHero.primaryHref}
-                          target="_blank"
-                          rel="noreferrer"
+                          target={
+                            currentHero.primaryHref.startsWith('http')
+                              ? '_blank'
+                              : undefined
+                          }
+                          rel={
+                            currentHero.primaryHref.startsWith('http')
+                              ? 'noreferrer'
+                              : undefined
+                          }
                           className="app-stage__action-pill"
                         >
                           {currentHero.primaryAction}
@@ -885,10 +893,10 @@ export default function App() {
             <div className="strip-spotlight-bar">
               <div className="strip-spotlight__info">
                 <span className="strip-spotlight__title">
-                  {currentSpotlightCard.title}
+                  {currentSpotlightCard.title}:
                 </span>
                 <span className="strip-spotlight__desc">
-                  — {currentSpotlightCard.summary}
+                  {currentSpotlightCard.summary}
                 </span>
               </div>
 
@@ -1140,15 +1148,15 @@ export default function App() {
                     Beyond our confidential embedded systems, fleet telemetry, and
                     stealth robotics R&amp;D, we actively apply our hardware and
                     edge-AI capabilities to public-interest challenges. In technical
-                    collaboration with Impacters — a STEM initiative by the Women
-                    Development Society (WODES) — we co-engineer solar-powered edge
+                    collaboration with Impacters, a STEM initiative by the Women
+                    Development Society (WODES), we co-engineer solar-powered edge
                     AI, 3D-printed vertical aeroponics, and support open-IP research
                     prototypes across Nepal.
                   </p>
                 </div>
 
                 <p className="forest-block__footnote">
-                  Public hardware &amp; R&amp;D case studies with Impacters (WODES) —
+                  Public hardware &amp; R&amp;D case studies with Impacters (WODES),
                   including Project Biruwa (Aeroponics &amp; Endemic Plant
                   Conservation), Project Saathi (Solar + P2P Offline Farm AI), and the
                   Sandbox STEM Research Grant Program.*
@@ -1341,7 +1349,7 @@ export default function App() {
             </p>
             <div className="closing-actions">
               <a href="mailto:info@naya.com.np" className="pill-btn">
-                LET’S TALK — INFO@NAYA.COM.NP
+                EMAIL INFO@NAYA.COM.NP
               </a>
               <button
                 type="button"
@@ -1525,7 +1533,7 @@ export default function App() {
               bespoke enterprise and public-sector systems alongside its own public
               platforms. Pragya Nepali Brihat Shabdakosh is published in official
               technical collaboration with the Nepal Academy (नेपाल
-              प्रज्ञा–प्रतिष्ठान). Project Biruwa, Project Saathi, and the Sandbox
+              प्रज्ञा प्रतिष्ठान). Project Biruwa, Project Saathi, and the Sandbox
               STEM Research Grant Program are collaborative civic-tech initiatives
               with Impacters, an initiative of the Women Development Society (WODES).
             </p>
